@@ -10,14 +10,16 @@
 ## Step 1
 Program the Agent to build a tower with **oak** blocks that is **10** blocks high. First, ensure that the Agent has **64** blocks of **oak plank**  using ``||agent:set block or item||`` command. Program the Agent to place oak planks **forward**, **left** & **right** by using ``||agent:agent place||`` block. The Agent needs to **move up** after placing the blocks.  
 
+Запрограммируйте агента построить башню из **дубовых** блоков высотой **10** блоков. Во-первых, убедитесь, что у Агента есть **64** блока **дубовой доски**, используя команду ``||agent:set block or item||``. Запрограммируйте агента на размещение дубовых досок **вперед**, **влево** и **вправо** с помощью блока ``||agent:agent place||``. Агент должен **двигаться вверх** после размещения блоков.
+
 #### ~ tutorialhint 
-Try using ``||loops:repeat||`` block and change the number to **10**. 
+Попробуйте использовать блок ``||loops:repeat||`` и измените число на **10**.
 
 ## Step 2
-Program the Agent to move **down** from the tower and construct **ladder** that is **10** blocks high. You need the ladder so that you can climb up!
+Запрограммируйте агента спуститься **вниз** с башни и построить **лестницу** высотой **10** блоков. Вам нужна лестница, чтобы вы могли подняться наверх!
 
 #### ~ tutorialhint 
-Don't forget to select **64** blocks of **ladder** in the Agent's inventory using ``||agent: agent set block||``, so that the Agent can place the ladder. 
+Не забудьте выбрать **64** блока **лестницы** в инвентаре Агента с помощью ``||agent: agent set block||``, чтобы Агент мог разместить лестницу.
 
 
 ```ghost

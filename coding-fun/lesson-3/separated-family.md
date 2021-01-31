@@ -8,10 +8,10 @@
 # Separated Family!
 
 ## Step 1
-Program the Agent to build a bridge across the chasm in the ice. Ensure that the Agent has **64** blocks of **oak planks** in the inventory. 
+Запрограммируйте агента построить мост через пропасть во льду. Убедитесь, что у Агента есть **64** блока **дубовых досок** в инвентаре.
 
 #### ~ tutorialhint 
-Don't forget to use **not** in your **while** loop. Think where you want the Agent to place blocks. 
+Не забудьте использовать **not** в цикле **while**. Подумайте, где вы хотите, чтобы агент расставлял блоки.
 
 
 ```ghost

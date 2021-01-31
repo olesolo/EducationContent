@@ -8,7 +8,7 @@
 # The great chasm!
 
 ## Step 1
-Program the Agent to **build a bridge** across the chasm in the ice. Use ``||agent:set block or item||`` to ensure that the Agent has the necessary materials in the inventory. Select the **oak** as a building material & **64** for the **amount of blocks**. ``||loops:while||`` the Agent does **not** detect blocks down, program the Agent to place the oak planks **down** and move **forward** to create a bridge.    
+Запрограммируйте агента **построить мост** через пропасть во льду. Используйте команду ``||agent:set block or item||``, чтобы убедиться, что у Агента есть необходимые материалы в инвентаре. Выберите **дуб** в качестве строительного материала и **64** для **количества блоков**. ``||loops:while||`` Агент **не** обнаруживает блоки вниз, запрограммируйте Агента, чтобы он поместил дубовые доски **вниз** и двигался **вперед**, чтобы создать мост.
 
 
 ```template
