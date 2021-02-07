@@ -8,7 +8,7 @@
 # Bamboo Border
 
 ## Step 1
-There is a starter code that we prepared for you.  Try running it first. The final goal is to plant bamboo along **4** sides of the panda's plot. 
+Мы подготовили для вас стартовый код. Попробуйте сначала запустить его. Конечная цель - посадить бамбук по **4** сторонам участка панды.
 
 ```template
 player.onChat("bamboo", function () {
