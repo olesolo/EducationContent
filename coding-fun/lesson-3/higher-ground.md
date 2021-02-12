@@ -34,5 +34,3 @@ player.onChat("tower", function () {
 })
 
 ``` 
-
-
