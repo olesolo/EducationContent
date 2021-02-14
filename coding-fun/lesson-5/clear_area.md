@@ -9,6 +9,8 @@
 
 ## Step 1
 The Agent needs to destroy **8** blocks of foliage moving **forward**. There are **16** rows of foliage that the Agent needs to destroy. The Agent needs to ``||agent:destroy forward||`` and ``||agent:move forward||`` **8** times. 
+
+Агенту нужно уничтожить **8** блоков листвы, двигаясь **вперед**. Всего Агент должен уничтожить **16** рядов листвы. Агенту нужно ``|| агент: уничтожить вперед||`` и ``||агент: двигаться вперед||`` **8** раз.
 #### ~ tutorialhint 
 ```blocks
 player.onChat("foliage", function () {

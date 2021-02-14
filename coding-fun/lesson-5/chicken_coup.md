@@ -8,10 +8,10 @@
 # Chicken Coup
 
 ## Step 1
-The Agent needs to place **2** layers of **9** blocks of **iron bars**. There are **4** sides that need to have **iron bars**. Don't forget to use ``||agent:agent move up||``to build the second level.
+Агенту необходимо разместить **2** слоя по **9** блоков **железных прутьев**. Все **4** стороны должны быть с **железными прутьями**. Не забудьте использовать ``|| агент: агент двигаться вверх||``, чтобы построить второй уровень.
 
 #### ~ tutorialhint
-At the end you will have **3** ``||loops:repeat|`` commands nested inside each other. Make sure that the Agent has more than 64 blocks in its inventory!
+В конце у вас будут команды **3** ``||цикла: повторить||``, вложенные друг в друга. Убедитесь, что у Агента в инвентаре есть более 64 блоков!
 
 ```ghost
 player.onChat("chicken", function () {

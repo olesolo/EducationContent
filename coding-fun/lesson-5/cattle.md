@@ -8,7 +8,7 @@
 # Cattle
 
 ## Step 1
-Look at the starter code and try running it. This code allows you to navigate the Agent without counting blocks. Look at the path the Agent needs to take and make sure you finish the coding sequence with correct turns for the Agent. Make sure that the Agent can reach the **gold plate**.  
+Посмотрите на стартовый код и попробуйте запустить его. Этот код позволяет вам перемещать агента, не считая пройденные блоки. Посмотрите на путь, который должен пройти агент, и убедитесь, что вы выставили правильные повороты для агента. Убедитесь, что агент может добраться до **золотой пластины**.  
 
 ```template
 player.onChat("sheep", function () {

@@ -7,10 +7,10 @@
 # Hazing One
 
 ## Step 1
-Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. 
+Установите для параметра ``||агент: агент получить блок||`` значение **натяжной датчик** и установите счетчик на **64**.
 
 ## Step 2
-Use the ``||loops:while||`` block and drop a condition inside the ``||loops:while||`` block.  
+Используйте блок ``||циклы: пока||`` и поместите условие внутрь блока ``||циклы: пока||``.
 
 #### ~ tutorialhint
 

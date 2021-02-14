@@ -8,10 +8,11 @@
 # Hazing 
 
 ## Step 1
-The Agent needs to set **tripwire** so that wolves won't get in. Set the ``||agent:agent set block||`` to **tripwire** and set the count to **64**. Use the ``||loops:while||`` block and drop a condition inside it.  
+Агент должен установить **натяжной датчик**, чтобы волки не могли попасть внутрь. Установите ``||агент: агент получить блок||`` на **натяжной датчик** и установите счетчик на **64**, чтобы получить 64 датчиков . Используйте блок ``||циклы: пока||`` и поместите в него условие.
 
 #### ~ tutorialhint
 Remember to use **not** in your condition. 
+Не забудьте использовать условие **не** (Логика) в вашем условии.
 
 ```blocks
 player.onChat("hazing", function () {

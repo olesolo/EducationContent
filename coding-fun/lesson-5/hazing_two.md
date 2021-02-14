@@ -9,10 +9,10 @@
 # Hazing Two
 
 ## Step 1
-Step 1 is to do hazing two.  
+Шаг 1 - убрать маскировку.
 
 ## Step 2
-When done, press the **Play** button to compile the code. Don't forget to run your code in Minecraft. 
+Когда закончите, нажмите кнопку **Старт**, чтобы скомпилировать код. Не забудьте запустить свой код в Minecraft.
 
 ```blocks
 player.onChat("run", function () {
