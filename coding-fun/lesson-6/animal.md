@@ -8,7 +8,7 @@
 # Collaborative activity
 
 ## Step 1
-Select the blocks you need to build the right home for the animals. You will find all the blocks we have used throughout the lessons for you to use!
+Выберите блоки, чтобы построить правильный дом для животных. Вы найдете все блоки, которые мы использовали на уроках!
 
 
 ```ghost
