@@ -8,7 +8,7 @@
 # Detecting your first material
 
 ## Step 1
-The Agent needs to **destroy** and then **collect** the **gold** block. 
+Агент должен **уничтожить**, а затем **собрать** **золотой** блок.
 
 ```template
 player.onChat("material", function () {

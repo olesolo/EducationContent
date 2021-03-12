@@ -8,7 +8,7 @@
 # Simulation  
 
 ## Step 1
-Welcome to Simulations! Program your Agent to collect the gold blocks and destroy obstacles on its way.
+Добро пожаловать в симуляторы! Запрограммируйте своего агента собирать золотые блоки и уничтожать препятствия на своем пути.
 
 
 ```template

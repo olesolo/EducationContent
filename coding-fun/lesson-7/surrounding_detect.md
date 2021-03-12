@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While the Agent is **inspecting the block down** and the block is **stone**, the Agent needs to **move forward**. If the Agent does **not** detect a block forward, the Agent needs to **move forward**, otherwise it needs to **turn left**. 
+Пока агент **осматривает блок внизу** и этот блок - **камень**, агенту необходимо **двигаться вперед**. Если агент **не** обнаруживает блок впереди, агент **двигается вперед**, иначе ему нужно **повернуть налево**.
 
 
 ```template

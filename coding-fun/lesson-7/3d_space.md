@@ -8,7 +8,7 @@
 # 3d Space
 
 ## Step 1
-To solve this challenge, you need to program the Agent to get to the **gold** block and collect it. The Agent needs to do it first on the ground level and then **move 3 levels up** and repeat the previous procedure.  
+Чтобы решить эту задачу, вам нужно запрограммировать Агента, чтобы он дошел до **золотого** блока и забрал его. Агент должен сделать это на уровне земли, а затем **переместиться на 3 блока вверх** и повторить предыдущую процедуру.
 
 ```template
 player.onChat("3D", function () {
