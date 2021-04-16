@@ -8,7 +8,7 @@
 # Locate the Sample! 
 
 ## Step 1
-**While** the Agent **inspects the block down** and does **not** find **blue ice**, program the Agent to **destroy** and **move down**. When the Agent locates the **blue ice**, it needs to **destroy down** and **collect** the sample. 
+**Пока** агент **осматривает блок внизу** и **не** находит **синий лед**, запрограммируйте агента **уничтожить** и **двигаться вниз**. Когда агент найдет **синий лед**, ему необходимо **уничтожить его** и **собрать** образец.
 
 ```ghost 
 player.onChat("ice", function () {

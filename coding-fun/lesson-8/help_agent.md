@@ -8,7 +8,7 @@
 # Iron
 
 ## Step 1
-While the Agent **inspects the block down** and this block is not **iron ore**, it needs to **move forward**. If the Agent **detects a block forward**, then it needs to **destroy forward**. When the Agent locates iron, program it to **collect** it. Note that in order to collect a block, Agent needs to destroy it first. 
+Пока агент **проверяет блок внизу** и этот блок не является **железной рудой**, он должен **двигаться вперед**. Если Агент **обнаруживает блок впереди**, ему необходимо **уничтожить блок впереди**. Когда Агент обнаруживает железо, запрограммируйте его **собирать** его. Обратите внимание, что для того, чтобы собрать блок, Агент должен сначала его уничтожить.
 
 ```ghost
 player.onChat("4", function () {

@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While the Agent **detects the block down**, it needs to move forward. If the Agent **inspects the block down** and finds **air**, then use ``||player:say||`` command to say **Crater found!**. 
+Пока агент **обнаруживает блок внизу (под собой)**, ему нужно двигаться вперед. Если агент **осматривает блок внизу** и находит **воздух**, используйте команду ``||игрок: сказать||``, чтобы сказать **Кратер найден!**.
 
 
 

@@ -8,7 +8,7 @@
 # Reach magma
 
 ## Step 1
-Program the Agent to **move forward**. While the Agent **inspects** block **down** and it is **not magma**, the Agent needs to **move down**. 
+Запрограммируйте агента **двигаться вперед**. Пока агент **проверяет** блок **внизу** и это **не магма**, агенту необходимо **двигаться вниз** уничтожая все препятствия под собой.
 
 
 ```ghost
