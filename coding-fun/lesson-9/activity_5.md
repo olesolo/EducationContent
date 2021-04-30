@@ -8,7 +8,7 @@
 # Holodeck 
 
 ## Step 1
-Use this holodeck to sharpen your skills! 
+Используйте этот голодек, чтобы отточить свои навыки!
 
 ```ghost
 player.onChat("3", function () {

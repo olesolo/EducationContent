@@ -8,8 +8,7 @@
 # Repair the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting** for a block of **air** and **not** finding it, the Agent needs to **move right**. If the Agent finds the block of **lapis lazuli** **in front**, it needs to **move right**, **turn left**, then **move right**. After that the Agent needs to say, "Found the break!" and **place a block of redstone forward**.
-
+Исправьте этот фрагмент кода. Вот цель: **исследуя** на наличие **блока воздуха** и **не** находя его, агент должен **перемещатся вправо**. Если агент находит блок **лазурита** **впереди**, ему нужно **переместится вправо**, **повернуть налево**, а затем **переместится вправо**. После этого агент должен сказать: «Нашел разрыв!»(Found the break!) и **поместите вперед блок красного камня**.
 
 
 ```template

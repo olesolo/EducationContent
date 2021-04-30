@@ -8,9 +8,7 @@
 # Locating stone 
 
 ## Step 1
-Fix this coding snippet. Here is what the Agent needs to do: **move** to the **left 4 times**, **destroy down**, **move down**. If the Agent detects a **stone** block forward, it needs to say "Found the stone!", **destroy forward** and **collect all**. If the stone is **not detected**, the Agent needs to say, "No stone here!". Each time after moving down, the Agent needs to **move 1 block up** to the surface. This activity needs to repeat **4** times.
-
-
+Исправьте этот фрагмент кода. Вот что нужно сделать агенту: **переместиться влево 4 раз**, **уничтожить вниз**, **переместиться вниз**. Если агент обнаруживает **камень** впереди, он должен сказать: «Камень нашел!»(Found stone!), **уничтожить вперед** и **собрать все**. Если камень **не обнаружен**, агент должен сказать: «Здесь камня нет!»(No stone here!). Каждый раз после спуска Агент должен **переместиться вверх на 1 блок**. Эти все действия нужно повторить **4** раза.
 
 
 

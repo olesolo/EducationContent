@@ -8,9 +8,7 @@
 # Track Down the Rover 
 
 ## Step 1
-Fix this coding snippet. Here is the objective: while **inspecting forward** for a block of **quartz** and **not** finding it, the Agent needs to **move forward**. If it **detects** a **gold** block **down**, it needs to **turn right**. If it detects a **block of iron down**, it needs to **turn left**. In the end the Agent needs to say, "Found the rover!"
-
-
+Исправьте этот фрагмент кода. Вот цель: **исследуя блок** **впереди** и **не** находя **кварца**, Агент должен **переместится вперед**. Если он **обнаруживает** **золотой** блок **внизу**, ему нужно **повернуть направо**. Если он обнаруживает **железный блок** **внизу**, ему нужно **повернуть налево**. В конце агент должен сказать: «Нашел марсоход!»(Found rover!)
 
 
 ```template

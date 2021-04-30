@@ -8,7 +8,7 @@
 # Deep Stone 
 
 ## Step 1
-Fix this coding snippet. Here is the Agent's objective: dig down into the surface until it hits a **gold** block on the **left**. On the way down, the Agent will detect if **stone** is in front of it, and collect it.
+Исправьте этот фрагмент кода. Вот цель агента: копать и перемещаться вниз, пока не наткнется на **золотой блок** **слева**. Спускаясь вниз, агент обнаружит, что перед ним **камень**, и соберет его.
 
 ```template
 player.onChat("dig", function () {
