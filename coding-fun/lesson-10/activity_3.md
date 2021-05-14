@@ -8,8 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While **inspecting the block down** that is **not packed ice**, program the Agent to locate, **destroy** and **collect** the following blocks: **iron**, **gold**, **emerald** and **diamond**. 
-
+Пока **исследуем блок внизу** не равен **плотный лед**, запрограммируйте Агента найти, **уничтожить** и **собрать** следующие блоки: **железо**, **золото**, **изумруд** и **алмаз**.
 
 
 ```ghost

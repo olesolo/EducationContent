@@ -8,9 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While **inspecting the block down** that is **not** **packed ice**, if the Agent **detects the block right**, then it needs to **move forward**. Otherwise it needs to **move right**. Within the same loop, if the Agent **inspects the block down** and it is either **cobblestone** **or** **gravel**, then it needs to **destroy down** and **collect all**. 
-
-
+При **исследовании блока внизу**, который **не** **плотный лед**, если агент **обнаруживает блок справа**, ему необходимо **двигаться вперед**. В противном случае необходимо **двигаться вправо**. В том же цикле, если агент **исследует блок внизу** и это либо **булыжник** **или** **гравий**, то ему необходимо **уничтожить** и **собрать все**.
 
 ```template
 player.onChat("ice", function () {

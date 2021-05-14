@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-While  **inspecting the block down** that is **packed ice**, **if** the Agent **detects the block right**, it needs to **move forward**. Otherwise it needs to **move right**. 
+При **исследовании блока внизу**, который является **плотным льдом**, **если** агент **обнаруживает блок справа**, то ему необходимо **двигаться вперед**. Иначе необходимо **двигаться вправо**.
 
 
 

@@ -8,7 +8,7 @@
 # Surroundings 
 
 ## Step 1
-Time to work on your skills on the Holodeck!
+Пора поработать над своим умением на Holodeck!
 
 
 
