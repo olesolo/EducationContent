@@ -8,7 +8,7 @@
 # Planet visit
 
 ## Step 1
-Select the right code to run! You have only one attempt, so be careful!
+Выберите правильный код для запуска! У вас всего одна попытка, так что будьте осторожны!
 
 
 
