@@ -8,7 +8,7 @@
 # Collaborative activity
 
 ## Step 1
-Select the blocks you need to work in space. You will find all the blocks we have used throughout the lessons for you to use!
+Выберите блоки, которые вам нужны для работы в космосе. Вы найдете тут все блоки, которые мы изучали на уроках, чтобы вы могли их использовать!
 
 
 ```ghost
