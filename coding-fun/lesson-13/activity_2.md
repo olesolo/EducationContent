@@ -8,7 +8,7 @@
 # The Climb
 
 ## Step 1
-Your challenge is to ``||mobs:jump||`` really high to climb up to the inaccessible area. 
+Ваша задача подняться в недоступную область. Для этого используйте блок ``||мобы:применить усиление прыжка||`` чтобы подпрыгнуть выше. 
 
 
 ```ghost

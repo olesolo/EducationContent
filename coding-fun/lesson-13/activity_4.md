@@ -7,10 +7,10 @@
 # Change the world!
 
 ## Step 1
-Use ``||player:on player walk||`` event to set a block at a specific set of ``||positions: world||``coordinates, which are **100, 68, 100**. Create a ``||variable||`` and name it **count**. Drag the ``||change count by 1||`` block and ``||blocks:place||`` block with an added ``||count||`` variable, this will increase by 1 and place a block that's associated with that block ID. 1=Stone, 2=Grass, 3=Dirt, etc. Use another event block, for example ``||player:on player fall||`` to reset the block. To do that, drag ``||set count||`` to **0** to restart the count and add a ``||blocks: place||`` block with an added ``||variable:count||`` variable set with the same world coordinates. This way whenever you jump in the world, the block will get reset. 
+Используем стартовый блок ``||игрок:при условии, что игрок - ходьба||``, чтобы разместить блок в определенных координатах ``||положение: мир||``, которые равны **100, 68, 100**. Создайте ``||переменную||`` и назовите ее **count**. Перетащите блок ``||изменить count на 1||`` и блок ``||блоки: разместить||`` с добавленной переменной ``||count||`` вместо блока. Теперь при движении вашего игрока переменная увеличится на 1 и в заданных координатах появится блок связанный с этим номером блока. Например, 1 = Камень, 2 = Трава, 3 = Грязь и т.д. Добавим другой блок событий, ``||игрок:при условии, что игрок - падение||``, чтобы он запускался при прыжках. Далее перетащите ``||установить для count значение||``  **0**, чтобы перезапустить счетчик, и добавьте блок '|| блок:разместить блок||`` с добавленной переменной ``||count||`` и с теми же мировыми координатами **100, 68, 100**. Теперь, каждый раз, когда вы прыгаете, номер блока размещенный в координатах  **100, 68, 100** будет сброшен на 0.
 
 ### ~ tutorialhint 
-Don't forget to use ``||positions: world||`` positions to indicate the coordinates. 
+Не забудьте использовать позиции ``||положения: мир||`` для обозначения координат.
 
 ```blocks
 let count = 0

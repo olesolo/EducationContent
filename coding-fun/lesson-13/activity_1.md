@@ -8,7 +8,7 @@
 # Lava swim
 
 ## Step 1
-Your challenge is to ``||player:swim||`` across the lava lake. Try ``||mobs:applying fire resistance||`` to the **nearest player**.
+Ваша задача использовать стартовый блок условие ``||игрок:при условии что игрок - плыть в лаве||``. И внутрь добавить ``||мобы: применить огнестойкость||`` к **ближайшему игроку**. Теперь вы сможете безопасно пересечь лаву.
 
 
 

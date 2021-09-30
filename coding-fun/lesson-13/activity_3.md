@@ -8,11 +8,11 @@
 # Building
 
 ## Step 1
-``||mobs:Give||`` yourself at least **34 emerald** blocks. Create a new ``||variable||`` and name it **count**.  Get an ``||blocks:on block placed||`` block and set it to **emerald**. Drag the ``||change count||`` block inside the ``||blocks: on block placed||`` and add ``||player: say||`` block. Add ``||count||`` inside the ``||player: say||`` block. This way whenever you place blocks, the game will be counting how many blocks you placed. 
+``||мобы:Дать цели||`` себе не менее **34 изумрудных** блоков. Создайте новую ``||переменную||`` и назовите ее **count**. Возьмите стартовый блок условие ``||блоки: при условии, что блок размещен||`` и выберите в нем значение **изумруд**. Перетащите блок ``||переменные:изменить значение||`` внутрь ``||блоки: при условии, что блок размещен||``. Еще добавьте блок ``||игрок: сказать||`` и в него вставьте круглый блок переменной ``||count||``. Теперь, когда вы ставите блоки, игра будет считать, сколько блоков вы разместили.
 
 ### ~ tutorialhint 
 
-You can select iron, gold, emerald or diamond. 
+Вы можете выбрать железо, золото, изумруд или алмаз.
 
 ```blocks
 let count = 0

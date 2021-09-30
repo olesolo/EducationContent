@@ -8,7 +8,7 @@
 # Make it rain!
 
 ## Step 1
-Make it rain while you dance in Minecraft! To make it happen you will need to use several event handlers. 1. Create your variables, for example: **walk**, **jump** and/or **break**. 2. Select the event handlers, for example ``||player: on player fall||``, ``||player: on player walk||``. 3. Set your new ``||variables||`` to ``||logic: true||`` inside each corresponding event block. 4. Use a ``||loop: forever||`` block and drag an ``||logic: if statement||``  inside of it. Set all your conditions to ``||logic:true||`` and add ``||gameplay: weather||`` block set to  **rain** to it. 
+Пусть идет дождь, пока вы танцуете в Minecraft! Для этого вам нужно будет использовать несколько обработчиков событий. 1. Создайте свои переменные, например: **walk** (прогулка), **jump** (прыжок) и/или **break** (стоп). 2. Выберите обработчики событий, например ``||игрок: при условии что игрок - падение||``, ``||игрок: при условии что игрок - ходьба||``. 3. Добавьте блок ``||переменные:установить переменную||`` **jump** в событие падения и вместо цифры вставьте внутрь ``||логика: истина||``. Тоже самое проделайте с событием ходьбы и переменной **walk** 4. Используйте блок ``||циклы: всегда||`` и перетащите внутрь него ``||логика:если||``. Установите для всех ваших условий значение ``||логика:истина||`` и добавьте внутрь блок ``|| игровой процесс:погода||``, установленный на **дождь**.
 
 ### ~ tutorialHint
 ```blocks
