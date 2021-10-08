@@ -8,10 +8,10 @@
 # Power the portal!
 
 ## Step 1
-You need to make the lightning strike while you are standing on the **gold plates**. First, you need to set the ``||gameplay: weather||`` to rain ``||loops: on start||``. Then try using ``||logic: if||``, ``||blocks: test for||`` and ``||mobs: spawn a lightning bolt||`` to make the lightning strike at the exact moment. 
+Вам нужно вызвать молнию, стоя на **золотых пластинах**. Во-первых, вам нужно установить дождь в блоке ``||gameplay: погода||``  ``|| loops: при начале||``. Затем попробуйте использовать ``||логику: если||``, ``||blocks: проверить на||`` и ``||mobs: создать молнию||``, чтобы молния ударила в нужный момент.
 
 ### ~ tutorialHint
-The gold plates are beneath you at **0, -1, 0** coordinates. 
+Отностиельные координаты золотых пластин под вами **0, -1, 0**. Помните, что вам нужно стоять на пластинах.
 
 ```ghost
 player.onTravelled(WALK, function () {

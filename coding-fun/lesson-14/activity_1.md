@@ -8,11 +8,11 @@
 # Pass the dinosaur!
 
 ## Step 1
-You need to ``||player:sneak past||`` the dinosaur by making yourself ``||mobs:invisible||``. Can you make this happen? 
+Вам нужно ``||player: проскользнуть мимо||`` динозавра, сделав себя ``||mobs: invisible||``. Сможете ли вы сделать это?
 
 
 ### ~ tutorialHint
-Try pressing shift and W to sneak in Minecraft. 
+Попробуйте нажать Shift и W, чтобы прокрасться в Minecraft.
 
 
 ```ghost
