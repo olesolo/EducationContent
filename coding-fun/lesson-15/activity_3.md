@@ -8,16 +8,16 @@
 # Pretty things!
 
 ## Step 1
-Ваша задача состоит в том, чтобы построить чередующийся(через один) узор из блоков **кварцевой колонны** и **лазурита** вдоль края пола ванны. Начните с создания переменных ``||variable:blockA||`` и ``||variable:blockB||``. Установите для параметра ``||variable:blockA переменная||`` значение **блока кварца** и ``||variable:blockB переменная||`` для **блока из лазурита**. Добавьте команды в блок ``||loops:при начале||``.
+Ваша задача состоит в том, чтобы построить чередующийся(через один) узор из блоков **кварца** и **лазурита** покругу, вдоль края пола ванны. Начните с создания переменных ``||variable:blockA||`` и ``||variable:blockB||``. Установите для параметра в переменной ``||variable:blockA||`` значение **блока кварца** и для переменной ``||variable:blockB||`` **блок лазурита**. Добавьте команды в блок ``||loops:при начале||``.
 
 ## Step 2
-``||logic: If||`` ``||count||`` = **0**, then agent needs to set ``||variable:blockA||``, ``||agent:destroy down||``, ``||agent:place down||`` and ``||variable:change the count by 1||``. ``||logic: Else||`` the Agent needs to set ``||blockB||``, place blocks and ``||change count by -1||``.  
+``||logic:Если||`` ``||count||`` = **0**, тогда Агент должен получить (команда ставит блок или предмет) 1 ``||variable:blockA||``, ``||agent:уничтожить вниз||``, ``||agent:разместить вниз||`` и ``||variable:изменить count на 1||``. ``||logic:Иначе||`` Агент должен установить `` ||blockB||``, уничтожить и разместить блок вниз, и ``||variable:изменить счетчик на -1||``.
 
 ## Step 3
-The Agent needs to place blocks in a row ``||loops: while||`` it does ``||logic:not||`` ``|| detect||`` a block **forward**. 
+Агенту необходимо размещать блоки один за другим ``||loops:пока||`` он ``||logic:не||`` ``||обнаружит||`` блок **впереди**.
 
 ## Step 4
-There are **4** sides of reservoir that the Agent needs to complete, so add a ``||loops: repeat||`` block. Set the ``||count||`` to **0** before sending the Agent to place blocks.
+Агенту необходимо заполнить все **4** стороны ванны, поэтому добавьте блок ``||loops:повторить||``. Установите для параметра ``||count||`` значение **0** перед отправкой Агента для размещения блоков.
 
 ```template
 let count = 0
