@@ -8,13 +8,13 @@
 # Mining Quartz!
 
 ## Step 1
-Write some code that will **calculate** how many **blocks** you need to build the remaining columns. Here are some facts: there are **6 columns** and each column is **6 blocks high**. Start by creating and setting ``||variable:height||`` and ``||variable:quantity||`` variables to the correct numbers ``||loops: on start||``, then create a ``||variable:total blocks||`` variable. 
+Напишите код, который **посчитает** сколько **блоков** вам понадобится для постройки оставшихся колонн. Вот некоторые факты: здесь **6 колонн** и высота каждой колонны **6 блоков**. Начните с создания и установки переменных ``||variable:height||``(высота) и ``||variable:qty||``(количество) на правильные числа ``||loops:при начале||``, затем создайте переменную ``|| variable:total||``(всего блоков) .
 
 ## Step 2
-Set up a condition, ``||logic: if||`` the ``||variable:total blocks||`` = ``||variable:height||`` * ``||variable:quantity||``, then ``||player: say||`` "Collected enough blocks!". 
+Задайте условие: ``||logic: если||`` ``||variable:total||``(всего блоков) = ``||variable:height||``(высота) * ``||variable:qty||``(количество), затем делать ``||player:сказать||`` «Collected enough blocks!».
 
 ## Step 3
-Now add a ``||variable:change total blocks||`` by 1 command and ``||player: say||`` ``||variable:total blocks||``, so that you know how many blocks you have collected. Make sure to add ``||blocks: pillar of quartz block broken||``, so that you will see the count while breaking blocks. When you are done, you will see the message "Collected enough blocks!". 
+Теперь добавьте команду ``||variable:изменить total||`` на 1 и ``|| player:сказать||`` ``||variable:total||``, чтобы вы знали сколько блоков вы собрали. Не забудьте добавить ``||blocks:при кварцевая колонна сломана||``, чтобы вы видели подсчет при разбивании блоков. Когда вы закончите, вы увидите сообщение "Collected enough blocks!"(Собрано достаточно блоков!).
 
 ```ghost
 blocks.onBlockBroken(PILLAR_QUARTZ_BLOCK, function () {

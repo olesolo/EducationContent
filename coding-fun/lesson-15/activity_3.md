@@ -8,7 +8,7 @@
 # Pretty things!
 
 ## Step 1
-Your mission is to to construct the alternating pattern of **quartz pillar** and **lapiz lazuli** blocks along the floor border of the bath. Start by creating ``||variable:blockA||`` and ``||variable:blockB||`` variables. Set the ``||variable:blockA variable||`` to a **block of quartz** and ``||variable:blockB variable||`` to a **lapis lazuli block**. Add the commands to the ``||loops: on start||`` block. 
+Ваша задача состоит в том, чтобы построить чередующийся(через один) узор из блоков **кварцевой колонны** и **лазурита** вдоль края пола ванны. Начните с создания переменных ``||variable:blockA||`` и ``||variable:blockB||``. Установите для параметра ``||variable:blockA переменная||`` значение **блока кварца** и ``||variable:blockB переменная||`` для **блока из лазурита**. Добавьте команды в блок ``||loops:при начале||``.
 
 ## Step 2
 ``||logic: If||`` ``||count||`` = **0**, then agent needs to set ``||variable:blockA||``, ``||agent:destroy down||``, ``||agent:place down||`` and ``||variable:change the count by 1||``. ``||logic: Else||`` the Agent needs to set ``||blockB||``, place blocks and ``||change count by -1||``.  

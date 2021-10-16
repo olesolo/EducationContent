@@ -8,16 +8,16 @@
 # Columns!
 
 ## Step 1
-Time to build the aqueducts! First, create ``||variable: length||`` and ``||variable: segments||`` variables. Then ``||variable: set length||`` to **5** and ``||variable: set segments||`` to **6** ``||loops: on start||``. 
+Время строить акведуки! Сначала создайте переменные ``||variable:length||``(длина) и ``||variable:segments||``(сегменты). Затем ``||variable: установить length||`` на **5** и ``||variable:установить seg||`` на **6** ``||loops: при начале||``.
 
 ## Step 2
-Now within an ``||player: on chat command||`` you need to add all the actions that the Agent needs to perform in order to build **1** part: ``||agent: set block pillar of quartz||`` at the count of **64**, ``||agent: place||`` and ``||agent: move forward||``. Water in Minecraft will flow if there is a slope, so the Agent needs to **place left, right and down**. Place all these actions within a ``||loops: repeat||`` loop that **repeats** ``||variable: length||`` times. 
+Теперь в команде ``||player: при команде чата||`` вам нужно добавить все действия, которые Агент должен выполнить. Чтобы построить **1** часть: ``||agent:получить блок кварцевой колонны||`` **64** блока, ``||agent:разместить||`` и ``||agent:двигаться вперед||``. Вода в Minecraft будет течь, если есть наклон, поэтому Агенту нужно **размещать блоки влево, вправо и вниз**. Поместите все эти действия в цикл ``||loops: повторить||``, который **повторяет** ``||variable:length||`` раз, т.е. вместо числа подставить **переменную**.
 
 ## Step 3
-Now nest the first ``||loops: repeat||`` loop within another ``||loops: repeat||`` loop that repeats ``||variables:segments||`` times. Try it out in Minecraft!
+Теперь вложите первый цикл ``||loops:повторить||`` в другой цикл ``||loops:повторить||``, который повторяет ``||variables:segments||`` раз. Попробуйте это в Minecraft!
 
 ### ~ tutorialHint
-Add ``||agent: agent move down||`` block before the inner loop to make the code work!
+Добавьте блок ``||agent: агент двигается вниз||`` перед внутренним циклом, чтобы код заработал!
 
 ```ghost
 player.onChat("build", function () {
