@@ -1,0 +1,55 @@
+{
+    "name": "hoc2021-makecode-md",
+    "version": "0.0.0",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "README.md",
+        "jazz.md",
+        "giza.md",
+        "moon.md",
+        "great_wall.md",
+        "mona_lisa.md",
+        "first_flights.md",
+        "computer_scientist.md",
+        "human_best_friend.md",
+        "paleontology.md",
+        "elements_discovery.md",
+        "jazz-2.md",
+        "giza-2.md",
+        "moon-2.md",
+        "great_wall-2.md",
+        "mona_lisa-2.md",
+        "first_flights-2.md",
+        "computer_scientist-2.md",
+        "human_best_friend-2.md",
+        "paleontology-2.md",
+        "elements_discovery-2.md",
+        "jazz-3.md",
+        "giza-3.md",
+        "moon-3.md",
+        "great_wall-3.md",
+        "mona_lisa-3.md",
+        "first_flights-3.md",
+        "computer_scientist-3.md",
+        "human_best_friend-3.md",
+        "paleontology-3.md",
+        "elements_discovery-3.md",
+        "start.md",
+        "no-code.md",
+        "deploy_agent.md"
+    ],
+    "testFiles": [],
+    "public": true,
+    "targetVersions": {
+        "target": "1.5.64",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
